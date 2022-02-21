@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMIYC</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- main -->
+    <main>
+        <!-- Modal -->
+        <div id="modal" class="flex hidden">
+            <div class="modal-container flex-column">
+                <h2 id="result">Turtle Caught!!</h2>
+                <p class="compliment">-- You're a Slayer --</p>
+                <p class="time-period">At - 09:00</p>
+                <a href="./index.html" class="btn" id="restart">Play Again</a>
+            </div>
+        </div>
+
+
+        <!-- nav -->
+        <nav>
+            <div class="navbar flex">
+                <div class="time-container">
+                    <p id="time">00:00</p>
+                </div>
+                <div class="btn-container">
+                    <a class="btn" id="stop-btn">Stop</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- turtle -->
+        <div class="main-content flex">
+            <a class="btn" id="start-btn">Start</a>
+            <p class="number hidden">3</p>
+            <a class="btn hidden" id="turtle"></a>
+        </div>
+    </main>
+
+
+    <!-- js -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
