@@ -77,7 +77,7 @@ const turtleRun = () => {
     
     }
 
-    const gameInterval = setInterval(gameOn, 1000);
+    const gameInterval = setInterval(gameOn, 600);
     const timeInterval = setInterval(runTime, 1000);
 
     function exitGame(){
